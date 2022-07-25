@@ -1,3 +1,7 @@
+body{
+    display: flexbox;
+    overflow-x: hidden;
+}
 .navbar{
     height: 100px;
 }
@@ -6,4 +10,26 @@
 }
 .card-deck{
     margin-bottom: 25px;
+}
+.servicecardsleft{
+    margin-left: 660px;
+    width: 100%;
+    padding-bottom: 15px;
+}
+.servicecardsright{
+    margin-left: 160px;
+    width: 100%;
+    padding-bottom: 15px;
+}
+.allservicecards{
+    /* margin-left: 460px; */
+    width: 100%;
+    padding-bottom: 15px;
+}
+.card{
+    border-radius: 10%;
+
+}
+.contactform{
+    padding-bottom: 25px;
 }
